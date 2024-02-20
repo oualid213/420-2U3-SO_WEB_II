@@ -45,12 +45,10 @@ var array = [
         genre: 'A'
     }
 ]
-// array[0][nom] // -> 'lol'
-// array[1][age] // -> 98
 
-function sorting(a,b){
-    var nomA = a[name];
-    var nomB = b[name];
+console.log(array.sort((a,b) =>{
+    const nomA = a.name;
+    const nomB = b.name;
     if(nomA < nomB)
         return -1;
 
@@ -58,6 +56,4 @@ function sorting(a,b){
         return 1
 
     return 0
-}
-
-console.log(array.sort(sorting));
+}));
