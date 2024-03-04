@@ -2,11 +2,11 @@
   "version": "0.2.0",
   "configurations": [
       {
-          "name": "Cours6 groupe2",
+          "name": "Cours7 groupe1",
           "type": "firefox",
           "request": "launch",
           "reAttach": true,
-          "file": "${workspaceFolder}/cours6/groupe2/index.html"
+          "file": "${workspaceFolder}/cours7/groupe1/index.html"
       }
   ]
 }
